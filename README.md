@@ -15,7 +15,6 @@
 ## TMFDemo工程目录
 
 - **Demo**:TMFDemo源码
-  - **Frameworks**：TMFDemo用到的第三方库
   - **Podfile**:默认的podfile
 - **Tools**：cocoapods安装脚本
 
