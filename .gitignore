@@ -1,0 +1,20 @@
+
+#==============================================================================#
+# This file specifies intentionally untracked files that git should ignore.
+#==============================================================================#
+
+# Xcode Noise
+build/
+xcuserdata/
+
+
+# OSX Noise
+.DS_Store
+
+# TMF
+libTMFMess.a
+
+#pods
+Delivery/Demo/Pods
+Delivery/Demo/TMF.xcworkspace
+Delivery/Demo/Podfile.lock

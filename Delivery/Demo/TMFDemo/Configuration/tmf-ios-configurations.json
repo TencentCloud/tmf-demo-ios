@@ -1,0 +1,23 @@
+{
+  "customId": "T1676562408AFNNDF",
+  "productId": 9313,
+  "packageName": "",
+  "bundleId": "com.tencent.tmf.demo",
+  "material": "01KOAxU5FZugVqq+0mzqeUU9VSzSk3yE3dau+VJaC8siUIrEWheCOJb3XGknZ393COcjhiziISPhak4nnH/PDYt4275mgbXma2bE5TQx6FW3s5TyHigj1kXincZ8nxHOIgEfilHNkpNLxbpFbC8RdeeX2E/iIJyd4zgKjBY9rKE61fYtp5bHQ7BGsqytXvEFxg5R8osTbHy/ayeaCjTMIht43JEKim4M94nn7lXZMgTad6xVVcV9Weq4rUf4JZddDhqZlRhF7sjxZQKGwM/wQONv1Ms533YJhx0ISxbwVJ3phKqkGYhpMSMZ8Ymj10yQsXXRBv17Ewy0qVsZoNO0R9yBPQGdG42Qi5HUPCa6hLd1KMQ3SouBHCldBVWKT5iqhMgWxWDd7ZS2/3VAKIl/YTpYhjtpTQRc7tQF9oEpmp56fUnld2ULDzLVld0s45byLV8rW3cd+8W1bb0U9UqS28HuRqbP65K9XcX6AGxhyUAmcy0MLJ2+sVkJtXUmGdOlSxwCl4k+tBrOzxlETkUbPmKwFmD4xG4BDl08aZnA8d0EZod0MvMBywlnLWoKVjmcRGHCHihlJxvGa+ldcY62z8piM0/0XVSyVDyQkqYZg/2YI5fe8IZDJGh4iSQoGN/pctEYjzDW2p3pcrrYX2FkoY6cOM11pF8U7zwbJnhtKpOJTugCcDm90ZiIF8QGY9CvXWBQ4meEB3ri32DmZMSgT387VdnU3TuR+jhc2weMigQxU=bd967d95331fcc03",
+  "shark": {
+    "httpUrl": "https://api.tmfcloud.com:30013",
+    "tcpHost": "81.69.54.240",
+    "tcpPort": 30014,
+    "appKey": "app-a897924fc9",
+    "symEnc": 2,
+    "asymEnc": 1
+  },
+  "qapm": {
+    "appKey": "app-a897924fc9",
+    "url": "http://xx.com"
+  },
+  "icdp": {
+    "appKey": "app-a897924fc9",
+    "httpUrl": ""
+  }
+}

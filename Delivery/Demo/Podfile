@@ -1,0 +1,21 @@
+##TMF Release Pods Repo
+source 'https://e.coding.net/tmf-work/tmf/tmf-repo.git'
+
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+target 'TMFDemo' do
+  # ―――  Demo Dependency ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  pod 'QMUIKit'
+  # ―――  Basic library  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  pod 'TMFBase'
+  pod 'TMFPhaseReporter'
+  
+  # ―――  TMFWebOffline ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  pod 'TMFWebOffline'
+  # ―――  Push  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  pod 'TMFPush'
+  # ―――  Distribution ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  pod 'TMFDistribution'
+    
+end
+
