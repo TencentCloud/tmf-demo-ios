@@ -31,6 +31,8 @@
 #import "TMFDistributionViewController.h"
 // DevelopSetting
 #import "TMFDevelopSettingViewController.h"
+// TMFHybrid
+#import "TMFHybridViewController.h"
 
 @implementation ViewController
 - (void)viewDidLoad {
@@ -116,6 +118,8 @@ static const double imgView_alpha = 0.90980398654937744;
 #define ROW_TMFDISTRIBUTION         @"TMFDistribution"
 #define ROW_TMFDISTRIBUTION_DETAIL  [@"distribute management" localizedString]
 
+#define ROW_TMFHYBRID               @"TMFHybrid"
+#define ROW_TMFHYBRID_DETAIL        [@"hybrid develop" localizedString]
 
 - (void)initDataSource {
     [super initDataSource];
@@ -128,6 +132,7 @@ static const double imgView_alpha = 0.90980398654937744;
     [dataSourceWithDetailText setObject:ROW_TMFSSL forKey:ROW_TMFSSL_DETAIL];
     [dataSourceWithDetailText setObject:ROW_TMFPUSH forKey:ROW_TMFPUSH_DETAIL];
     [dataSourceWithDetailText setObject:ROW_TMFDISTRIBUTION forKey:ROW_TMFDISTRIBUTION_DETAIL];
+    [dataSourceWithDetailText setObject:ROW_TMFHYBRID forKey:ROW_TMFHYBRID_DETAIL];
     
     self.dataSourceWithDetailText = dataSourceWithDetailText;
 }
@@ -144,6 +149,8 @@ static const double imgView_alpha = 0.90980398654937744;
         [self createQMUITabBarController];
     } else if ([title isEqualToString:ROW_TMFDISTRIBUTION_DETAIL]) {
         [self createDistributionController];
+    } else if ([title isEqualToString:ROW_TMFHYBRID_DETAIL]) {
+        [self createTMFHybridViewController];
     }
 }
 
@@ -229,6 +236,12 @@ static const double imgView_alpha = 0.90980398654937744;
 - (void)createDistributionController {
     TMFDistributionViewController *VC = [[TMFDistributionViewController alloc] init];
     [self.navigationController pushViewController:VC animated:YES];
+}
+
+#pragma mark - TMFHybrid
+- (void)createTMFHybridViewController{
+    TMFHybridViewController * hybridViewController = [TMFHybridViewController new];
+    [self.navigationController pushViewController:hybridViewController animated:YES];
 }
 
 @end

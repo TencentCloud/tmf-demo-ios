@@ -125,6 +125,12 @@
 		C47BB1A7225B201800E5D127 /* QDConsoleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C47BB13D225B201800E5D127 /* QDConsoleViewController.m */; };
 		C47BB1A8225B201800E5D127 /* QDCellSizeKeyCacheViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C47BB13E225B201800E5D127 /* QDCellSizeKeyCacheViewController.m */; };
 		C47BB1AA225B222400E5D127 /* QMUIKit.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C47BB1A9225B222400E5D127 /* QMUIKit.xcassets */; };
+		EF20CAE629B0622C0090031F /* TMFHybridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF20CAE029B0622C0090031F /* TMFHybridViewController.m */; };
+		EF20CAE729B0622C0090031F /* TMFHybridOpenBIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF20CAE129B0622C0090031F /* TMFHybridOpenBIDViewController.m */; };
+		EF20CAE829B0622C0090031F /* TMFHybridOpenURLViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = EF20CAE229B0622C0090031F /* TMFHybridOpenURLViewController.h */; };
+		EF20CAE929B0622C0090031F /* TMFHybridViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = EF20CAE329B0622C0090031F /* TMFHybridViewController.h */; };
+		EF20CAEA29B0622C0090031F /* TMFHybridOpenBIDViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = EF20CAE429B0622C0090031F /* TMFHybridOpenBIDViewController.h */; };
+		EF20CAEB29B0622C0090031F /* TMFHybridOpenURLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF20CAE529B0622C0090031F /* TMFHybridOpenURLViewController.m */; };
 		EFFCEF4E299F7C38009ED87E /* TMFSharkDemoUserConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = EFFCEF4C299F7C38009ED87E /* TMFSharkDemoUserConfiguration.h */; };
 		EFFCEF4F299F7C38009ED87E /* TMFSharkDemoUserConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = EFFCEF4D299F7C38009ED87E /* TMFSharkDemoUserConfiguration.m */; };
 		F00B08132963D4840094BC03 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F00B08152963D4840094BC03 /* Localizable.strings */; };
@@ -386,6 +392,12 @@
 		C47BB13F225B201800E5D127 /* QDSingleImagePickerPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDSingleImagePickerPreviewViewController.h; sourceTree = "<group>"; };
 		C47BB1A9225B222400E5D127 /* QMUIKit.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = QMUIKit.xcassets; sourceTree = "<group>"; };
 		EDFDDDCE46E28FD936D498DF /* libPods-TMD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TMD.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF20CAE029B0622C0090031F /* TMFHybridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMFHybridViewController.m; sourceTree = "<group>"; };
+		EF20CAE129B0622C0090031F /* TMFHybridOpenBIDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMFHybridOpenBIDViewController.m; sourceTree = "<group>"; };
+		EF20CAE229B0622C0090031F /* TMFHybridOpenURLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFHybridOpenURLViewController.h; sourceTree = "<group>"; };
+		EF20CAE329B0622C0090031F /* TMFHybridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFHybridViewController.h; sourceTree = "<group>"; };
+		EF20CAE429B0622C0090031F /* TMFHybridOpenBIDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFHybridOpenBIDViewController.h; sourceTree = "<group>"; };
+		EF20CAE529B0622C0090031F /* TMFHybridOpenURLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMFHybridOpenURLViewController.m; sourceTree = "<group>"; };
 		EFFCEF4B299F60B5009ED87E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		EFFCEF4C299F7C38009ED87E /* TMFSharkDemoUserConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFSharkDemoUserConfiguration.h; sourceTree = "<group>"; };
 		EFFCEF4D299F7C38009ED87E /* TMFSharkDemoUserConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMFSharkDemoUserConfiguration.m; sourceTree = "<group>"; };
@@ -516,6 +528,7 @@
 		C47BB060225B201800E5D127 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				EF20CADF29B0622C0090031F /* TMFHybrid */,
 				F00B09A22963DCAC0094BC03 /* DevelopSetting */,
 				F00B097F2963DC180094BC03 /* TMFWebOffline */,
 				C47BB061225B201800E5D127 /* QMUIKit */,
@@ -842,6 +855,19 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		EF20CADF29B0622C0090031F /* TMFHybrid */ = {
+			isa = PBXGroup;
+			children = (
+				EF20CAE029B0622C0090031F /* TMFHybridViewController.m */,
+				EF20CAE129B0622C0090031F /* TMFHybridOpenBIDViewController.m */,
+				EF20CAE229B0622C0090031F /* TMFHybridOpenURLViewController.h */,
+				EF20CAE329B0622C0090031F /* TMFHybridViewController.h */,
+				EF20CAE429B0622C0090031F /* TMFHybridOpenBIDViewController.h */,
+				EF20CAE529B0622C0090031F /* TMFHybridOpenURLViewController.m */,
+			);
+			path = TMFHybrid;
+			sourceTree = "<group>";
+		};
 		F00B097F2963DC180094BC03 /* TMFWebOffline */ = {
 			isa = PBXGroup;
 			children = (
@@ -886,12 +912,15 @@
 			files = (
 				68AD98FB28F9122300C8A91E /* TMFSharkEnvironmentSelectViewController.h in Headers */,
 				EFFCEF4E299F7C38009ED87E /* TMFSharkDemoUserConfiguration.h in Headers */,
+				EF20CAEA29B0622C0090031F /* TMFHybridOpenBIDViewController.h in Headers */,
 				F00B09AE2963DCAC0094BC03 /* TMFDevelopSettingCell.h in Headers */,
 				F00B09A92963DCAC0094BC03 /* TMFDevelopSettingViewController.h in Headers */,
 				F00B09992963DC180094BC03 /* TMFWebOfflineViewController.h in Headers */,
 				F00B09AA2963DCAC0094BC03 /* TMFDevelopSetting.h in Headers */,
 				F00B081A2963D5050094BC03 /* NSString+Localize.h in Headers */,
+				EF20CAE929B0622C0090031F /* TMFHybridViewController.h in Headers */,
 				F00B09A02963DC180094BC03 /* TMFWebOfflineWebViewDebugLogViewController.h in Headers */,
+				EF20CAE829B0622C0090031F /* TMFHybridOpenURLViewController.h in Headers */,
 				F00B099A2963DC180094BC03 /* TMFWebOfflineWKWebViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1056,6 +1085,7 @@
 				C47BB17E225B201800E5D127 /* QDAboutViewController.m in Sources */,
 				C47BB14C225B201800E5D127 /* QDCommonListViewController.m in Sources */,
 				C47BB16D225B201800E5D127 /* QDCAAnimationViewController.m in Sources */,
+				EF20CAE629B0622C0090031F /* TMFHybridViewController.m in Sources */,
 				C47BB16F225B201800E5D127 /* QDInterceptBackButtonEventViewController.m in Sources */,
 				C47BB150225B201800E5D127 /* QDColorViewController.m in Sources */,
 				C47BB149225B201800E5D127 /* QDCommonViewController.m in Sources */,
@@ -1089,6 +1119,7 @@
 				C47BB168225B201800E5D127 /* QDUIViewLayoutViewController.m in Sources */,
 				C47BB160225B201800E5D127 /* QDNormalButtonViewController.m in Sources */,
 				C47BB193225B201800E5D127 /* QDCustomToastAnimator.m in Sources */,
+				EF20CAE729B0622C0090031F /* TMFHybridOpenBIDViewController.m in Sources */,
 				C47BB166225B201800E5D127 /* QDTextViewController.m in Sources */,
 				C47BB163225B201800E5D127 /* QDUIViewQMUIViewController.m in Sources */,
 				C47BB198225B201800E5D127 /* QDPieProgressViewController.m in Sources */,
@@ -1126,6 +1157,7 @@
 				C47BB18D225B201800E5D127 /* QDImagePickerExampleViewController.m in Sources */,
 				C47BB191225B201800E5D127 /* QDSaveImageToSpecifiedAlbumViewController.m in Sources */,
 				C47BB17D225B201800E5D127 /* QDFontPointSizeAndLineHeightViewController.m in Sources */,
+				EF20CAEB29B0622C0090031F /* TMFHybridOpenURLViewController.m in Sources */,
 				C47BB155225B201800E5D127 /* QDUIViewBorderViewController.m in Sources */,
 				C47BB184225B201800E5D127 /* QDMultipleImagePickerPreviewViewController.m in Sources */,
 				F00B09AB2963DCAC0094BC03 /* TMFDevelopSettingCell.m in Sources */,

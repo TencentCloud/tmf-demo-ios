@@ -9,6 +9,7 @@ target 'TMFDemo' do
   # ―――  Basic library  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   pod 'TMFBase'
   pod 'TMFPhaseReporter'
+  pod 'TMFHybrid'
   
   # ―――  TMFWebOffline ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   pod 'TMFWebOffline'
